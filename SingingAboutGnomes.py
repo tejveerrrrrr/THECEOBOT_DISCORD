@@ -25,7 +25,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 client = discord.Client(intents=intents)
 
-username_to_timeout = ["afg99"]
+username_to_timeout = ["random"]
 
 @client.event
 async def on_member_update(before, after):
